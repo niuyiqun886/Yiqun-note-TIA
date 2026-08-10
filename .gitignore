@@ -1,0 +1,11 @@
+# Obsidian - 本地状态 / 插件二进制，不进版本库
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/
+.obsidian/themes/
+.trash/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
