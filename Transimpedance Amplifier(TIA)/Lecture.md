@@ -270,7 +270,7 @@ Q = \frac{\sqrt{(A_{0} + 1)\omega_{0} \omega_{i}}}{\omega_{0} + \omega_{i}} \app
 \end{gather}
 $$
 
-这里的传递函数的计算过程：[](笔算过程.md#^47cc20) 
+这里的传递函数的计算过程：[[笔算过程.md#^47cc20]]
 
 >[!note] 补充说明
 >由上式化简结果  $Q = \sqrt{\frac{GBW}{\omega_{i}}}$  可知Q值描述的是第二极点和GBW的关系，也就是相位裕度，香味于都不够就会产生peaking，当相位裕度为45°的时候，也就是第二极点位与GBW的2倍的位置，Q值就是0.707，没有peaking的时候。
@@ -358,11 +358,10 @@ $$
 R_{out} = \frac{R_{F} \parallel \frac{1}{g_{m2}}}{1 + g_{m1} R_{D}} \approx \frac{ \frac{1}{g_{m2}}}{1 + g_{m1} R_{D}}
 $$
 
-Drawbacks（缺点）:
+>[!Drawbacks] （缺点）:
 1.  $I_{b}$   parasitics cap 
 2.  Source follower
 3. May need large supply (  $\gg 1.8V$ )
 
 
 
-## Lecture 3
