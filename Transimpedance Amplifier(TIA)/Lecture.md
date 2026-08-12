@@ -365,7 +365,10 @@ $$
 
 Direct FB  TIA: 直接反馈TIA[[笔算过程.md#^ab4eaf]]
 
-![[Lecture-1786530272701.webp]]
+![[Lecture-1786533821414.webp]]
+
+No poles locate at relatively high freq.
+
 
 DC Analysis:
 if  $g_{m1}R_{F} \gg 1$  $g_{m1}R_{D} \gg 1$  
@@ -386,6 +389,8 @@ $$
 $$
 R_{out} = R_{D} \parallel (\frac{1}{g_{m1}})
 $$
+
+Noise Analy:
 
 
 
