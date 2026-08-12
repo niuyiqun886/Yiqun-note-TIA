@@ -368,9 +368,10 @@ Direct FB  TIA: 直接反馈TIA
 ![[Lecture-1786524109902.webp]]
 
 DC Analysis:
+if  $g_{m1}R_{F} \gg 1$  $g_{m1}R_{D} \gg 1$  
 
 $$
-R_{T} = -R_{D} \cdot \frac{g_{m1}R_{F} - 1}{1 + g_{m1} R_{D}} 
+R_{T} = -R_{D} \cdot \frac{g_{m1}R_{F} - 1}{1 + g_{m1} R_{D}} \approx -R_{F}
 $$
 
 
