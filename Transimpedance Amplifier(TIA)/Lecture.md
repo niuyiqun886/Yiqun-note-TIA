@@ -390,11 +390,18 @@ $$
 R_{out} = R_{D} \parallel (\frac{1}{g_{m1}})
 $$
 
-Noise Analy:
+Noise Analy:[[笔算过程.md#^a1ce89]]
 
+![[Lecture-1786540688438.webp]]
 
+同时计算：
 
+$$
+\begin{cases}
+I_{n,R_{D}} - \frac{V_{}}{}
 
+\end{cases}
+$$
 
 
 
