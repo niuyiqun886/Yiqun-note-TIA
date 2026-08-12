@@ -271,7 +271,7 @@ Q = \frac{\sqrt{(A_{0} + 1)\omega_{0} \omega_{i}}}{\omega_{0} + \omega_{i}} \app
 $$
 
 >[!note] 补充说明
->
+>由上式化简结果  $Q = \sqrt{\frac{GBW}{\omega_{i}}}$  可知Q值描述的是第二极点和GBW的关系，也就是相位裕度，香味于都不够就会产生peaking，当相位裕度为45°的时候，也就是第二极点位与GBW的2倍的位置，Q值就是0.707，没有peaking的时候。
 
 
 
@@ -363,4 +363,4 @@ Drawbacks（缺点）:
 
 
 
-
+### Lecture 3
