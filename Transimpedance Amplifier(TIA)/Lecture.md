@@ -270,6 +270,10 @@ Q = \frac{\sqrt{(A_{0} + 1)\omega_{0} \omega_{i}}}{\omega_{0} + \omega_{i}} \app
 \end{gather}
 $$
 
+>[!note] 补充说明
+>
+
+
 
 ![](./assets/f8bccf4e-bb22-4e96-a6b9-2cd679c19df8.png)
 
