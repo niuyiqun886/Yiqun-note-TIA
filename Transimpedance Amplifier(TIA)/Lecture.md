@@ -369,7 +369,9 @@ Direct FB  TIA: 直接反馈TIA
 
 DC Analysis:
 
-
+$$
+R_{T} = -R_{D} \cdot \frac{g_{m1}R_{F} - 1}{1 + g_{m1} R_{D}} 
+$$
 
 
 
