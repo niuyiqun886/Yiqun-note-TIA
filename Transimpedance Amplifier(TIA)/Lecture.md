@@ -358,10 +358,39 @@ $$
 R_{out} = \frac{R_{F} \parallel \frac{1}{g_{m2}}}{1 + g_{m1} R_{D}} \approx \frac{ \frac{1}{g_{m2}}}{1 + g_{m1} R_{D}}
 $$
 
->[!Drawbacks] （缺点）:
-1.  $I_{b}$   parasitics cap 
-2.  Source follower
-3. May need large supply (  $\gg 1.8V$ )
+>[!drawbacks] Drawbacks（缺点）:
+>1.  $I_{b}$   parasitics cap
+>2. Source follower
+>3. May need large supply (  $\gg 1.8V$ )
+
+Direct FB  TIA: 直接反馈TIA
+
+![[Lecture-1786524109902.webp]]
+
+DC Analusis:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
