@@ -318,12 +318,12 @@ Peaking significantly reduced by $C_{F}$
 
 
 
+>[!note] 要求
+>(shunt-shunt)还是达不到要求则需要：
+>High-speed TIA  要求：
+>1.Remove Opamp
+>2. Simplify your Circuit as much as possible
 
-(shunt-shunt)还是达不到要求则需要：
-High-speed TIA  要求：
-
-1. Remove Opamp
-2. Simplify your Circuit as much as possible
 
 举例： Ex：
 
@@ -346,6 +346,7 @@ if  $g_{m1} R_{D} \gg 1$
 $$
 R_{T} = \frac{V_{out}}{I_{in}} = - \frac{(g_{m1} R_{D} R_{F}) - \frac{1}{g_{m2}}}{1+ g_{m1} R_{D}} \approx -R_{F}
 $$
+
 输入阻抗：
 
 $$
@@ -412,7 +413,7 @@ $$
 化简得：
 
 $$
-\frac{1}{(g_{m1} + \frac{1}{R_{D}})^2}[\overline{I_{n,R_{D}}^2} + \overline{I_{n,M_{1}}^2} + g_{m1}R_{F}^2 \overline{I_{n,R_{F}}^2}]
+\overline{V_{n,out}^{2}} = \frac{1}{(g_{m1} + \frac{1}{R_{D}})^2}[\overline{I_{n,R_{D}}^{2}} + \overline{I_{n,M_{1}}^{2}} + g_{m1}^{2}R_{F}^{2} \overline{I_{n,R_{F}}^2}]
 $$
 
 
