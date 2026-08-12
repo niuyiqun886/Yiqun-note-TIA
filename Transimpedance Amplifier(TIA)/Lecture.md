@@ -367,7 +367,9 @@ Direct FB  TIA: 直接反馈TIA
 
 ![[Lecture-1786524109902.webp]]
 
-DC Analusis:
+DC Analysis:
+
+
 
 
 
