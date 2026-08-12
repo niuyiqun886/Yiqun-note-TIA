@@ -398,14 +398,22 @@ Noise Analy:[[笔算过程.md#^a1ce89]]
 
 $$
 \begin{cases}
-I_{n,R_{D}} - \frac{V_{}}{}
-
+I_{n,R_{D}} - \frac{V_{n,out}}{R_{D}} = v_{x} g_{m1} + I_{n,m_{1}} \\[4pt]
+V_{x} = I_{n,R_{F}} R_{F} + V_{n,out}
 \end{cases}
 $$
 
+得到：
 
+$$
+I_{n,R_{D}} - I_{n,m_{1}} - g_{m1}R_{F} I_{n,R_{F}} = (g_{m1} + \frac{1}{R_{D}})V_{n,out}
+$$
 
+化简得：
 
+$$
+\frac{1}{(g_{m1} + \frac{1}{R_{D}})^2}[\overline{I_{n,R_{D}}^2} + \overline{I_{n,M_{1}}^2} + g_{m1}R_{F}^2 \overline{I_{n,R_{F}}^2}]
+$$
 
 
 
