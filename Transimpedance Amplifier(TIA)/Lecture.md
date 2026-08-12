@@ -384,7 +384,7 @@ $$
 输出电阻： $R_{out}$ 
 
 $$
-
+R_{out} = R_{D} \parallel (\frac{1}{g_{m1}})
 $$
 
 
