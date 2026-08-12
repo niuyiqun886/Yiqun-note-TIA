@@ -367,7 +367,7 @@ Direct FB  TIA: 直接反馈TIA[[笔算过程.md#^ab4eaf]]
 
 ![[Lecture-1786533821414.webp]]
 
-No poles locate at relatively high freq.
+No poles locate at relatively high freq.笔算过程中有完成的计算结果。
 
 
 DC Analysis:
