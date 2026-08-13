@@ -470,5 +470,7 @@ b: General case
 Two real pole : $\omega_{in} > \omega_{out}$  (Most likely)
 
 Noise Consideration: 
+小信号模型：分开算每部分的噪声
 
+![[Lecture-1786603518435.webp]]
 
