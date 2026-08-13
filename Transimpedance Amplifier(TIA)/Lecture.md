@@ -429,6 +429,12 @@ $$
 \frac{1}{R_{D}} \ll g_{m_1} < g_{m_1} R_{F}
 $$
 
+噪声的频率响应可以算一下，就可以得到大概的曲线：
+
+![[Lecture-1786600764893.webp]]
+
+
+>[!note] example: Inverter-based TIA
 
 
 
