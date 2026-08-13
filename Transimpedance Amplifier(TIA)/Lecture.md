@@ -538,3 +538,14 @@ Transimpedance Gain：
 
 
 2. For $C_p$  :
+	
+	$$
+	\omega_p = \frac{1}{C_{p}(\frac{R_{D1}}{1+g_{m1}R_{D1}})} = \frac{1+g_{m1}R_{D1}}{C_p R_{D1}}
+	$$
+
+>[!note] 带宽
+>这个结构的主极点和共栅的主极点位置相同，所以基本上不会影响放大器的带宽。
+
+
+**Other TIA Technique：** 
+	*gain boos
