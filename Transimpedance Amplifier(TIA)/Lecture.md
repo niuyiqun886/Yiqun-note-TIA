@@ -446,7 +446,7 @@ $$
 
 
 
-Common-Gate TIA：
+**Common-Gate TIA：**
 	1. No feedback
 	2. Simple
 	3. Low Noise
@@ -495,4 +495,10 @@ M2 贡献噪声
 	 $$
 
 
-![[Lecture-1786605774025.webp]]
+![[Lecture-1786605872548.webp]]
+
+
+
+**Regulated-Cascode TIA**:
+	In some cases TIA with lower input impendance is required(to ensure most input current from PD could be injected into TIA even at high freq.)
+	
