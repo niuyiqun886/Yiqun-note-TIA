@@ -421,7 +421,7 @@ $$
 则简化为：
 
 $$
-\overline{V_{n,out}^{2}} = \frac{1}{g_{m1}^2}[\overline{I_{n,R_{D}}^{2}} + \overline{I_{n,M_{1}}^{2}} + g_{m1}^{2}R_{F}^{2} \overline{I_{n,R_{F}}^2}]
+\overline{V_{n,out}^{2}} = \frac{1}{g_{m1}^2}[\underbrace{ \overline{I_{n,R_{D}}^{2}}}_{ \frac{4kT}{R_{D}}} + \underbrace{ \overline{I_{n,M_{1}}^{2}}}_{4kT \gamma g_{m1}} + \underbrace{g_{m1}^{2}R_{F}^{2} \overline{I_{n,R_{F}}^2}}_{\frac{g_{m}}{}}]
 $$
 
 
