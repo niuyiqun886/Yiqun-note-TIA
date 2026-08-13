@@ -562,4 +562,7 @@ Transimpedance Gain：
 
 ![[Lecture-1786611818772.webp]]
 
-主要是保证输出电压的headroom
+>[!note] note
+	1.主要是保证输出电压的headroom
+	2.  w1 needs to be s low as few tens of kHz avoide drooping during long runs.
+
