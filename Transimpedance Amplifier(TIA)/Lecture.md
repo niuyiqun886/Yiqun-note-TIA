@@ -438,11 +438,20 @@ $$
 
 ![[Lecture-1786601146770.webp]]
 
->[!note] 练习
->1.high-freq. ?
->2.Noise?
-> $R_{T}$ ?
-> * Drawba
+>[!note] 练习：可以自己算一下
+>* high-freq. ?
+>* Noise?
+>* $R_{T}$ ?
+> * Drawback?
+
+
+
+Common-Gate TIA：
+
+1. No feedback
+2. Simple
+3. Low Noise
+4. Easy to implement
 
 
 
