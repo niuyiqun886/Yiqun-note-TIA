@@ -421,9 +421,13 @@ $$
 则简化为：
 
 $$
-\overline{V_{n,out}^{2}} = \frac{1}{g_{m1}^2}[\underbrace{ \overline{I_{n,R_{D}}^{2}}}_{ \frac{4kT}{R_{D}}} + \underbrace{ \overline{I_{n,M_{1}}^{2}}}_{4kT \gamma g_{m1}} + \underbrace{g_{m1}^{2}R_{F}^{2} \overline{I_{n,R_{F}}^2}}_{\frac{g_{m}}{}}]
+\overline{V_{n,out}^{2}} = \frac{1}{g_{m1}^2}[\underbrace{ \overline{I_{n,R_{D}}^{2}}}_{ \frac{4kT}{R_{D}}} + \underbrace{ \overline{I_{n,M_{1}}^{2}}}_{4kT \gamma g_{m1}} + \underbrace{g_{m1}^{2}R_{F}^{2} \overline{I_{n,R_{F}}^2}}_{\frac{g_{m1}^2R_{F}^2 4kT}{R_{F}}}]
 $$
+比较哪一项贡献的噪声最大：
 
+$$
+\frac{1}{R_{D}} \ll g_{m_1} < g_{m_1} R_{F}
+$$
 
 
 
