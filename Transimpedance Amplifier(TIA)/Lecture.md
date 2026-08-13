@@ -436,9 +436,13 @@ $$
 
 >[!note] example: Inverter-based TIA
 
+![[Lecture-1786601146770.webp]]
 
-
-
+>[!note] 练习
+>1.high-freq. ?
+>2.Noise?
+> $R_{T}$ ?
+> * Drawba
 
 
 
