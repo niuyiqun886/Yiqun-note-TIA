@@ -30,7 +30,7 @@ TIA：不能饱和(需要调控TIA的gain)，需要gain contral 越自动越好(
 
 ![](./assets/b5643b2b-2bc3-4e8f-a32a-5f81df01587b.png)
 
-Responsivity(R)响应度：会和偏压有关系
+==**Responsivity(R)响应度：会和偏压有关系**==
 定义如下:（其中Input light Power 是光的功率可以量的出来）
 
 $$
@@ -41,7 +41,7 @@ $$
 	1. R = 0.5 (A/W)    for    850nm lacer(激光)
 	2. R = 0.9 (A/W)    for    1.55μm lacer
 
-ER (Extinction Ratio)(消光比)：逻辑1时候的power和逻辑0时候的power（关断和开启）
+==**ER (Extinction Ratio)(消光比)：**== 逻辑1时候的power和逻辑0时候的power（关断和开启）
 
 $$
 ER \triangleq \frac{P_{1}}{P_{0}} = \frac{Logical \, 1 \, Power}{Logical \, 0 \, Power} \, (A/W)
