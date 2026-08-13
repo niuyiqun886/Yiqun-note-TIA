@@ -452,7 +452,7 @@ Common-Gate TIA：
 	3. Low Noise
 	4. Easy to implement
 
-![[Lecture-1786602278133.webp]]
+![[Lecture-1786603042892.webp]]
 
 a：Low freq.
 	1.  $R_{T} = R_{D}$
@@ -460,8 +460,15 @@ a：Low freq.
 	3. $R_{out} = R_{D}$
 
 b: General case
-	 $$
 	 
-	 R_{T} = \frac{R_{D}}{(1 + \frac{s}{\omega _{in}})((1 + \frac{s}{\omega _{out}})}
 	 $$
+	 \begin{gather}
+	 R_{T} = \frac{R_{D}}{(1 + \frac{s}{\omega _{in}})((1 + \frac{s}{\omega _{out}})}\\[4pt]
+	 \omega_{in} = \frac{g_{m}}{C_{in}} \, \, \, \omega_{out} = \frac{1}{R_{D} C_{L}}
+	 \end{gather}
+	 $$
+Two real pole : $\omega_{in} > \omega_{out}$  (Most likely)
+
+Noise Consideration: 
+
 
