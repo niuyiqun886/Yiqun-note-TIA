@@ -474,3 +474,8 @@ Noise Consideration:
 
 ![[Lecture-1786603518435.webp]]
 
+  $R_{D}$  
+	  
+	  $$
+	  \overline{V_{n,out,R_{D}}^2} = \overline{I_{n,R_{D}}^2} \cdot  \left|R_{D} \parallel \frac{1}{s C_{L}} \right|^2 = \overline{I_{n,R_{D}}^2} \cdot \frac{}{}
+	  $$
