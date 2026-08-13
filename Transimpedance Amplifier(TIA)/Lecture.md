@@ -584,3 +584,11 @@ Transimpedance Gain：
 如下图：
 
 ![[Lecture-1786613206059.webp]]
+
+* Diff. TIA
+失调问题
+
+* bipolar
+
+![[Lecture-1786613550487.webp]]
+
