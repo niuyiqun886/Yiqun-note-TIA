@@ -564,5 +564,13 @@ Transimpedance Gain：
 
 >[!note] note
 	1.主要是保证输出电压的headroom
-	2.  w1 needs to be s low as few tens of kHz avoide drooping during long runs.
+	2.  w1 needs to be as low as few tens of kHz avoide drooping during long runs.
+
+例子：
+
+![[Lecture-1786612366886.webp]]
+
+
+
+**Automatic Gain Contral：**
 
