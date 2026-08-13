@@ -416,8 +416,13 @@ $$
 \overline{V_{n,out}^{2}} = \frac{1}{(g_{m1} + \frac{1}{R_{D}})^2}[\overline{I_{n,R_{D}}^{2}} + \overline{I_{n,M_{1}}^{2}} + g_{m1}^{2}R_{F}^{2} \overline{I_{n,R_{F}}^2}]
 $$
 
+如果： $g_{m1}R_{D} \gg 1$ 
 
+则简化为：
 
+$$
+\overline{V_{n,out}^{2}} = \frac{1}{g_{m1}^2}[\overline{I_{n,R_{D}}^{2}} + \overline{I_{n,M_{1}}^{2}} + g_{m1}^{2}R_{F}^{2} \overline{I_{n,R_{F}}^2}]
+$$
 
 
 
