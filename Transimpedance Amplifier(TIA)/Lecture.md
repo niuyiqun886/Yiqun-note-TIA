@@ -548,4 +548,7 @@ Transimpedance Gain：
 
 
 **Other TIA Technique：** 
-	*gain boos
+* Gain Boosting  → Prvide more bias current to increase gm
+
+
+
