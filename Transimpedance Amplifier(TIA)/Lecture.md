@@ -548,7 +548,14 @@ Transimpedance Gain：
 
 
 **Other TIA Technique：** 
-* Gain Boosting  → Prvide more bias current to increase gm
+
+* Gain Boosting  → Prvide more bias current to increase gm(save Voltage headroom)
+
+![[Lecture-1786611332789.webp]]
+
+>[!question]
+> 	1.输出节点引入更大的寄生电容，会压缩带宽。
+> 	2.也会引入噪声
 
 
-
+* Cap Coupling (Save Voltage headroom)
