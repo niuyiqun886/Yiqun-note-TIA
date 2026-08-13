@@ -460,5 +460,8 @@ a：Low freq.
 	3. $R_{out} = R_{D}$
 
 b: General case
-	 $R_{T} = \frac{R_{D}}{(1 + \frac{s}{\omega})()}$
+	 $$
+	 
+	 R_{T} = \frac{R_{D}}{(1 + \frac{s}{\omega _{in}})((1 + \frac{s}{\omega _{out}})}
+	 $$
 
