@@ -576,3 +576,11 @@ Transimpedance Gain：
 
 ![[Lecture-1786612773462.webp]]
 
+>[!note] note
+>通过调整 Vctrl端电压的大小来调整mos和 $R_F$ 电阻的并联等效阻抗，来调整增益。
+> $I_{in}$ 增加 $V_{ctrl}$ 增加 $R_{eq}$ 下降。反之亦然
+
+>[!question] 怎么检测输入信号的大小呢？
+如下图：
+
+
