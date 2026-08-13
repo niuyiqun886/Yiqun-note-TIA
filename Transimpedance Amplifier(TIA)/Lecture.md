@@ -520,11 +520,21 @@ Transimpedance Gain：
 
 ![[Lecture-1786610100305.webp]]
 
-1. For $C_{in}$  :  这个也是等效的输入电子
+1. For $C_{in}$  :  这个 $R_{eq}$  也是等效的输入电阻
 	$$
 	\begin{gather}
-	-\frac{(V_{t} I_t \cdot \frac{1}{g_{m2}})}{R_D} \cdot \frac{1}{g_{m1}} = V_t \\[4pt]
-	R_{eq} \triangleq \frac{V_t}{I_t} = \frac{\frac{1}{g_{m2}}}{1+g_{m1}R_{D1}}
+	-\frac{(V_{t} I_t \cdot \frac{1}{g_{m2}})}{R_{D1}} \cdot \frac{1}{g_{m1}} = V_t \\[4pt]
+	R_{eq} \triangleq \frac{V_t}{I_t} = \frac{\frac{1}{g_{m2}}}{1+g_{m1}R_{D1}} \\[4pt]
+	\omega_{in} = \frac{1}{C_{in}(\frac{\frac{1}{g_{m2}}}{1+g_{m1}R_{D1}})}
 	\end{gather}
 	$$
 
+
+2. For $C_L$  : 也就是等效输出电阻
+	
+	$$
+	\omega_{out} = \frac{1}{R_{D2}C_L}
+	$$
+
+
+2. For $C_p$  :
