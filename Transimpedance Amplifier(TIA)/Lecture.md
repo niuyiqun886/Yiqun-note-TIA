@@ -447,13 +447,18 @@ $$
 
 
 Common-Gate TIA：
+	1. No feedback
+	2. Simple
+	3. Low Noise
+	4. Easy to implement
 
-1. No feedback
-2. Simple
-3. Low Noise
-4. Easy to implement
+![[Lecture-1786602278133.webp]]
 
+a：Low freq.
+	1.  $R_{T} = R_{D}$
+	2.  $R_{in} = \frac{1}{g_{m}}$
+	3. $R_{out} = R_{D}$
 
-
-
+b: General case
+	 $R_{T} = \frac{R_{D}}{(1 + \frac{s}{\omega})()}$
 
