@@ -574,3 +574,5 @@ Transimpedance Gain：
 
 **Automatic Gain Contral：**
 
+![[Lecture-1786612773462.webp]]
+
