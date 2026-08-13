@@ -583,4 +583,4 @@ Transimpedance Gain：
 >[!question] 怎么检测输入信号的大小呢？
 如下图：
 
-
+![[Lecture-1786613206059.webp]]
