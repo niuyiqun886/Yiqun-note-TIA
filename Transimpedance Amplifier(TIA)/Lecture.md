@@ -477,5 +477,14 @@ Noise Consideration:
   $R_{D}$  
 	  
 	  $$
-	  \overline{V_{n,out,R_{D}}^2} = \overline{I_{n,R_{D}}^2} \cdot  \left|R_{D} \parallel \frac{1}{s C_{L}} \right|^2 = \overline{I_{n,R_{D}}^2} \cdot \frac{}{}
+	  \overline{V_{n,out,R_{D}}^2} = \overline{I_{n,R_{D}}^2} \cdot  \left|R_{D} \parallel \frac{1}{s C_{L}} \right|^2 = \overline{I_{n,R_{D}}^2} \cdot \frac{R_{D}^2}{\left| 1 + \frac{s}{\omega_{out}} \right|^2}
 	  $$
+
+
+M1
+	 $$
+	 \begin{gather}
+	 -\frac{V_{n,out,M_{1}}}{(R_{D} \parallel \frac{1}{sC_{L}})} = I_{n,M_{1}} - V_{x} g_{m_{1}} = V_{x} \cdot s C_{in} \\[4pt]
+	 \overline{V_{n,out,M_{1}}^2} = \overline{I_{n,out,M_{1}}^2} \cdot \frac{R_{D}^2}{\left| 1 + \frac{s}{\omega_{out}} \right|^2}
+	 \end{gather}
+	 $$
