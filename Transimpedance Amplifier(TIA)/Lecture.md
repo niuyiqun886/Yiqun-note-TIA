@@ -516,7 +516,15 @@ Transimpedance Gain：
 
 极点分析：（每个电容单独分析）
 
+1. 输入电容：
 
+![[Lecture-1786610100305.webp]]
 
-
+1. For $C_{in}$  :  这个也是等效的输入电子
+	$$
+	\begin{gather}
+	-\frac{(V_{t} I_t \cdot \frac{1}{g_{m2}})}{R_D} \cdot \frac{1}{g_{m1}} = V_t \\[4pt]
+	R_{eq} \triangleq \frac{V_t}{I_t} = \frac{\frac{1}{g_{m2}}}{1+g_{m1}R_{D1}}
+	\end{gather}
+	$$
 
