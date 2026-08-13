@@ -559,3 +559,7 @@ Transimpedance Gain：
 
 
 * Cap Coupling (Save Voltage headroom)
+
+![[Lecture-1786611818772.webp]]
+
+主要是保证输出电压的headroom
