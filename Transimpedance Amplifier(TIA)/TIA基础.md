@@ -502,7 +502,7 @@ M2 贡献噪声
 
 **Regulated-Cascode TIA**:
 	In some cases TIA with lower input impendance is required(to ensure most input current from PD could be injected into TIA even at high freq.)
-如图：就是随着频率的升高， $C_{in}$  的等效阻抗在下降，所以输入阻抗要很小才可以分到更多的电流，至少是一个数量级以上。
+如图：就是随着频率的升高， $C_{in}$  的等效阻抗在下降，所以输入阻抗要很小才可以分到更多的电流，至少是一个数量级以上。 ^Regulated-Cascode-TIA
 
 ![[Lecture-1786606216269.webp]]
 
