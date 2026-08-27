@@ -451,7 +451,7 @@ $$
 	1. No feedback
 	2. Simple
 	3. Low Noise
-	4. Easy to implement
+	4. Easy to implement ^607dfb
 
 ![[Lecture-1786603042892.webp]]
 
