@@ -217,7 +217,7 @@ Low Output-resistance to properly drive  the subsequent blocks.
 5. Noise
 
 
-==Feedback TIA(shunt-shunt)==
+==Feedback TIA(shunt-shunt)== ^2b7fe4
 
 ![](./assets/244020c0-e87d-44eb-905d-c15bb095faa0.png)
 
