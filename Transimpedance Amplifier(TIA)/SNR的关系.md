@@ -58,7 +58,7 @@ MDS(minmum detected signal)最小可检测电流大小。
 
 ##### 三. SNR 的四种约定----分歧全在分子分母各取什么
 
-设回波峰值幅度为 $A$ （这个是电流值）,定义 $d \triangleq A/\sigma$  
+设回波峰值幅度为 $A$ (信号的幅值),定义 $d \triangleq A/\sigma$  
 
 
 | 写法             | 表达式           | 与d的关系               | 谁在用                     |
@@ -91,6 +91,7 @@ $$
 
 $$
 \begin{gather}
+d = \frac{A}{\sigma} \\[4pt]
 k = \frac{V_T}{\sigma} \\[4pt]
 \boxed{P_{FA} = Q(k)} \\[4pt]
 \boxed{P_D = Q(k-d)}
@@ -98,7 +99,12 @@ k = \frac{V_T}{\sigma} \\[4pt]
 $$
 其中：
 	$P_{FA}$  [[虚假报警和探测概率.md#^a16b0b]] 
-	 $P_D$  [[]] 
+	 $P_D$  [[虚假报警和探测概率.md#^c745af]] 
+	 A：是信号的幅值
+
+
+
+
 
 
 
