@@ -96,7 +96,7 @@ k = \frac{V_T}{\sigma} \\[4pt]
 \boxed{P_D = Q(k-d)}
 \end{gather}
 $$
-
+其中： $P_{FA}$  [[]]
 
 
 
