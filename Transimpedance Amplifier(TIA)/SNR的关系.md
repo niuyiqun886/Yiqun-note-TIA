@@ -20,7 +20,8 @@
 一.  $V_{pp}$ 与 $\sigma$  ：靠峰值因子相连，而这两个因子不是常数
 
 $$
-\gamma \triangleq \frac{V_{pp}}{}
+\gamma \triangleq \frac{V_{pp}}{\sigma} \approx 2 \sqrt{2 \ln{N_{eff}}} 
 $$
 
-
+2018年论文中：测试的输出噪声峰峰值为40mV，rms有效值为5.567mV
+故： $\gamma = 40/5.568 = 7.18$
