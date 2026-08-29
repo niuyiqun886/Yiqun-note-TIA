@@ -76,6 +76,8 @@ SNR_{2\sigma} = \frac{A}{2\sigma} = \frac{d}{2}, \\[4pt]
 \frac{SNR_{2\sigma}}{SNR_{pp}} = \frac{\gamma}{2} = 3.59
 \end{gather}
 $$
+这里的3.59 就是0.28μA和1.0μA的全部差距。
+
 
 
 
