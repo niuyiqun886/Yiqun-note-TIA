@@ -96,8 +96,9 @@ k = \frac{V_T}{\sigma} \\[4pt]
 \boxed{P_D = Q(k-d)}
 \end{gather}
 $$
-其中： $P_{FA}$  [[]]
-
+其中：
+	$P_{FA}$  [[虚假报警和探测概率.md#^a16b0b]] 
+	 $P_D$  [[]] 
 
 
 
