@@ -85,7 +85,17 @@ $$
 >	 $1\mu A = 40mV/106dB\Omega \times 5$
 >	 那个280nA一会算
 
-四. $d$
+四. $d、k$ 与 $Q$ 的关系：一个 $d$ 要拆成两份用
+
+这是关键的一步，d 不能单独决定性能，必须先界定门限位置：
+
+$$
+\begin{gather}
+k = \frac{V_T}{\sigma} \\[4pt]
+\boxed{P_{FA} = Q(k)} \\[4pt]
+\boxed{P_D = Q(k-d)}
+\end{gather}
+$$
 
 
 
