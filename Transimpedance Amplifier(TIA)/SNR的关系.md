@@ -66,7 +66,12 @@ MDS(max detected signal)最大可检测电流大小。
 | 检测理论 SNR       | $A/\sigma$    | $d$                 | $P_{FA}/P_D$ 唯一接受的      |
 | 峰峰噪声比          | $A/V_{pp,n}$  | $d/\gamma = d/7.18$ | 2017年的那个论文中的5倍的噪声峰峰值的来源 |
 | 2018年论文(3-24)式 | $A/(2\sigma)$ | $d/2$               | 2018年论文中的0.28μA         |
-| 线路码Q因子         | $V_o/\sigma$  |                     | [[误码率.md]]              |
+| 线路码Q因子         | $V_o/\sigma$  | 见第五节                | [[误码率.md]]              |
+互换关系：
+
+$$
+SNR_{pp} = \frac{d}{7.18} \,\,\,\,\,\, SNR_{2\sigma} = \frac{d}{2}, \,\,\,\frac{SNR_{2\sigma}}{SNR_{pp}} = \frac{\gamma}{2} = 3.59
+$$
 
 
 
