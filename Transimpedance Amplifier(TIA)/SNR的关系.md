@@ -70,7 +70,11 @@ MDS(max detected signal)最大可检测电流大小。
 互换关系：
 
 $$
-SNR_{pp} = \frac{d}{7.18} \,\,\,\,\,\, SNR_{2\sigma} = \frac{d}{2}, \,\,\,\frac{SNR_{2\sigma}}{SNR_{pp}} = \frac{\gamma}{2} = 3.59
+\begin{gather}
+SNR_{pp} = \frac{A}{V_{pp,n}} = \frac{d}{\gamma} = \frac{d}{7.18} \\[4pt]
+SNR_{2\sigma} = \frac{A}{2\sigma} = \frac{d}{2}, \\[4pt]
+\frac{SNR_{2\sigma}}{SNR_{pp}} = \frac{\gamma}{2} = 3.59
+\end{gather}
 $$
 
 
