@@ -74,6 +74,7 @@ $$
 $$
 N = 2B_n T_w = 2 \times 66.6MHz \times 6.67\mu s = 888
 $$
+
 取 $f_{rep} = 100kHz$ ，每小时窗口数 $= 10^5 \times 3600 = 3.6\times10^8$ ，故：
 
 $$
@@ -84,7 +85,9 @@ Q(k) = \frac{P_{FA,窗}}{N} = \frac{2.78 \times10^{-9}}{888} = 3.13 \times 10^{-
 \end{gather}
 $$
 
+ $P_{FA,窗}$  就应该
 
+第四步：检测概率 → $d$ 
 
 
 
