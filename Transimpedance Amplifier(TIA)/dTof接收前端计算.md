@@ -168,3 +168,10 @@ R_{in} \leq = \frac{\left| Z_C\right|}{10} = 133 \Omega \Rightarrow \boxed{设�
 $$
 输入极点： $f_p = \frac{1}{2\pi \times 50 \times 2pF} = 1.59GHz \gg 60MHz ✓$ 
 
+
+校核一：测距精度(独立，常是瓶颈)
+门限处压摆率：
+
+$$
+\frac{dV}{dt} \
+$$
