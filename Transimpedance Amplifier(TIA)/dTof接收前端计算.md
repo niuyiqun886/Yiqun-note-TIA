@@ -99,7 +99,24 @@ $$
 ##### 第五步：噪声预算
 
 $$
-\sigma_{in} \leq \frac{I_{min}}{d} = \frac{}{}
+\begin{gather}
+\sigma_{in} \leq \frac{I_{min}}{d} = \frac{358nA}{9.20} = 38.9nA rms\\[4pt]
+S_{i,tot} \leq \frac{\sigma_{in}}{\sqrt{B_n}} = \frac{38.9n A}{\sqrt{66.6\times10^6}} = 4.77pA/\sqrt{Hz} 
+\end{gather}
 $$
 
+
+功率分配（RSS）：
+
+|来源|预算|占比|
+|---|---|---|
+|APD 散粒噪声（背景光 + 暗电流，含倍增噪声因子 FF F）|2.5 pA/√Hz|27%|
+|**TIA 输入参考噪声**|**4.06 pA/√Hz**|73%|
+|合计 RSS|4.77 pA/√Hz|100%|
+
+$$
+\boxed{S_{i,TIA}\leq 4.0pA/\sqrt{Hz}} 
+$$
+
+这是 TIA 设计的硬指标。
 
