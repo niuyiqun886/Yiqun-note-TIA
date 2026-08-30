@@ -40,5 +40,28 @@ $$
 P_r = 800 \times 0.1 \times \frac{4.42\times 10^{-3}}{\pi \times 10^6} \times0.7\times0.91 = 71.6nW
 $$
 
+得到最小电流：
+
+$$
+I_{min} = \mathcal{R} \cdot P_r = 71.6n W \times 5 A/W = 385nA
+$$
+
+##### 第二步：脉宽 → 带宽
+脉冲 10%–90% 上升时间： $t_r = 0.76  \times FWHM = 7.16ns$ 
+
+$$
+BW_{min} = \frac{0.35}{t_r} = 48.9MHz
+$$
+
+
+
+
+
+
+
+
+
+
+
 
 
