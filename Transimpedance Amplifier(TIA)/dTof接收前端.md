@@ -34,4 +34,5 @@ $$
 P_r = P_t \cdot \rho \cdot \frac{A_r}{\pi R^2} \cdot \eta_{opt} \cdot \eta_{atm}
 $$
 
-$A_r = \pi (0.0375)^2 = $
+$A_r = \pi (0.0375)^2 = 4.42 \times 10^{-3} \, m^2$  则合格
+
