@@ -66,15 +66,21 @@ $$
 无模糊距离窗：
 
 $$
-T_w = \frac{2 R_{mqx}}{c} = 6.67 \mu s \Rightarrow f_rep \leq \frac{1}{T_w} = 150kHz  
+T_w = \frac{2 R_{mqx}}{c} = 6.67 \mu s \Rightarrow f_{rep} \leq \frac{1}{T_w} = 150kHz  
 $$
 
-取 $f_{rep} =100kHz$ ，窗口独立样本数：
+窗口独立样本数：
 
 $$
-N = 2B_n T_w = 
+N = 2B_n T_w = 2 \times 66.6MHz \times 6.67\mu s = 888
 $$
+取 每小时窗口数 $= 10^5 \times 3600 = 3.6\times10^8$ ，故：
 
+$$
+\begin{gather}
+
+\end{gather}
+$$
 
 
 
