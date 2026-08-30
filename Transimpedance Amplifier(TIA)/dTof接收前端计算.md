@@ -129,7 +129,7 @@ Z_{T} = \frac{1V}{10 \mu A} = 100k\Omega = 100dB\Omega
 $$
 
 自洽性校验：
-其中 $k = \frac{V_T}{\sigma_{out}}, d = \frac{V_{sig}}{\sigma_{out}}$  $V_{sig}-V_{T} = 9.1m$
+其中 $k = \frac{V_T}{\sigma_{out}}, d = \frac{V_{sig}}{\sigma_{out}}$  $V_{sig}-V_{T} = 9.1mV \sigma_{out} = 2.34\sigma_{out}$ 
 
 | 量                         | 计算                               | 值                   |
 | ------------------------- | -------------------------------- | ------------------- |
