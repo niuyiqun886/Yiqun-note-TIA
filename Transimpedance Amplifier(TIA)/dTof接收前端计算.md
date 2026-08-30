@@ -173,5 +173,15 @@ $$
 门限处压摆率：
 
 $$
-\frac{dV}{dt} \
+\begin{gather}
+\left. \frac{dV}{dt} \right|_{V_T} \approx \frac{0.8 \times 35.8mV}{7.16ns} = 4.00mV/ns \\[4pt]
+\sigma_{t} = \frac{\sigma_{out}}{dV/dt} = \frac{3.89mV}{4.00mV/ns} = 0.97ns \\[4pt]
+\sigma_{R} = \frac{c}{2}\sigma_{t} = \frac{3\times10^8}{2} \times0.97ns = 14.6cm
+\end{gather}
+$$
+
+不满足10cm的要求，需要多脉冲平均：
+
+$$
+n = (\frac{14.6}{10})^2 = 2.13 \to 
 $$
