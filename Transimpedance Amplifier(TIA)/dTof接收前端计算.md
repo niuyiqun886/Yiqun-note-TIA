@@ -158,5 +158,13 @@ $$
 计算信号带宽处的容抗：设 $C_{in} = C_{APD} + C_{pad} + C_{gs} \approx 2pF$ 
 
 $$
-\left| Z_C\right| = \frac{1}{2\pi 60MHz \times 2 pF} = 1327 \O
+\left| Z_C\right| = \frac{1}{2\pi 60MHz \times 2 pF} = 1327 \Omega
 $$
+
+要求 $90\%$ 以上注入 TIA：
+
+$$
+R_{in} \leq = \frac{\left| Z_C\right|}{10} = 133 \Omega \Rightarrow \boxed{设计目标 R_{in} < 50\Omega} 
+$$
+输入极点： $f_p = \frac{1}{2\pi \times 50 \times 2pF} = 1.59GHz \gg 60MHz ✓$ 
+
