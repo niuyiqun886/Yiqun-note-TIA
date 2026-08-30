@@ -26,7 +26,7 @@
 |        脉宽 FWHM        | 10 ns  |
 |        接收口径 D         | 75 mm  |
 |  光学效率 $\eta_{opt}$​   |  0.7   |
-|        双程大气透过率        |  0.91  |
+| 双程大气透过率 $\eta_{atm}$  |  0.91  |
 | APD 响应度 $\mathcal{R}$ | 5 A/W  |
 朗伯目标回波功率：
 
@@ -34,5 +34,11 @@ $$
 P_r = P_t \cdot \rho \cdot \frac{A_r}{\pi R^2} \cdot \eta_{opt} \cdot \eta_{atm}
 $$
 
-$A_r = \pi (0.0375)^2 = 4.42 \times 10^{-3} \, m^2$  则合格
+$A_r = \pi (0.0375)^2 = 4.42 \times 10^{-3} \, m^2$  这个应该是计算接收器的有效面积
+
+$$
+P_r = 800 \times 0.1 \times \frac{4.42\times 10^{-3}}{\pi \times 10^6} \times0.7\times0.91 = 71.6nW
+$$
+
+
 
