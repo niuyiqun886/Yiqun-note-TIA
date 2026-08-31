@@ -2,7 +2,7 @@
   "openBehavior": "file:Transimpedance Amplifier(TIA)/Lecture.md",
   "attachmentFolderPath": "./assets",
   "newLinkFormat": "relative",
-  "alwaysUpdateLinks": false,
+  "alwaysUpdateLinks": true,
   "useMarkdownLinks": true,
   "promptDelete": false
 }

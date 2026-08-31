@@ -140,7 +140,7 @@ $$
 For example, wo choose $TIA \,gain = 46 \text{dB} \Omega$   $LA \, gain = 40 \text{dB}$  留有余量。
 
 ==(b) max(最大的噪声多少可以接受)：==  SNR越大越好，但是要达到什么程度可以达到我们的要求呢？
-误码率(Bits-error rate): $BER < 10^{-12}$   [误码率](误码率.md)
+误码率(Bits-error rate): $BER < 10^{-12}$   [误码率_NZR专用](误码率_NZR专用.md)
 需要 $V_{pp} / noise_{value} \geq 14$    
 
 ![](./assets/81375026-80f2-4996-8f0c-e3deb464893a.png)
