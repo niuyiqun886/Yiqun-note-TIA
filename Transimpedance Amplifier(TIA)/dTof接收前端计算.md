@@ -47,7 +47,7 @@ I_{min} = \mathcal{R} \cdot P_r = 71.6n W \times 5 A/W = 358nA
 $$
 
 ##### 第二步：脉宽 → 带宽
-脉冲 10%–90% 上升时间： $t_r = 0.76  \times FWHM = 7.16ns$ 
+脉冲 10%–90% 上升时间： $t_r = 0.716  \times FWHM = 7.16ns$ 
 
 $$
 BW_{min} = \frac{0.35}{t_r} = 48.9MHz
@@ -81,7 +81,7 @@ $$
 \begin{gather}
 P_{FA,窗} = \frac{1}{3.6\times 10^8} = 2.78 \times 10^{-9} \\[4pt]
 Q(k) = \frac{P_{FA,窗}}{N} = \frac{2.78 \times10^{-9}}{888} = 3.13 \times 10^{-12}\\[4pt]
-\boxed{k = Q^{-1}(3.13 \times^{-12}) = 6.87}
+\boxed{k = Q^{-1}(3.13 \times 10^{-12}) = 6.87}
 \end{gather}
 $$
 
@@ -143,7 +143,7 @@ $$
 **全量程动态范围**：
 
 $$
-\frac{I_{max}}{I_{min}} = (\frac{R_{max}}{R_{min}})^2 = (\frac{1000}{2})^2 = 2.2\times10^5
+\frac{I_{max}}{I_{min}} = (\frac{R_{max}}{R_{min}})^2 = (\frac{1000}{2})^2 = 2.5\times10^5
 $$
 
 远超单档 29 dB，故需增益分档：
