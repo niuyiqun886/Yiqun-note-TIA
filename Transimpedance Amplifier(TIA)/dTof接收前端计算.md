@@ -43,7 +43,7 @@ $$
 得到最小电流：
 
 $$
-I_{min} = \mathcal{R} \cdot P_r = 71.6n W \times 5 A/W = 385nA
+I_{min} = \mathcal{R} \cdot P_r = 71.6n W \times 5 A/W = 358nA
 $$
 
 ##### 第二步：脉宽 → 带宽
