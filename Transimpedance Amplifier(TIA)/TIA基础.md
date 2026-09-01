@@ -264,7 +264,7 @@ Opamp → 1st order approx: 条件 $\omega_{0} \ll \omega_{i} < GBW$
 
 $$
 \begin{gather}
-R_{T} = \frac{-R_{F} A_{0} \omega_{0} \omega_{i}}{S^2 + S (\omega_{0} + \omega_{i}) +(A_{0} + 1)\omega_{0} \omega_{i}} = \frac{K_{1}}{s^2 + (\frac{\omega_{n}}{Q})S + \omega_{n}^2} \\[4pt]
+R_{T} = \frac{-R_{F} A_{0} \omega_{0} \omega_{i}}{s^2 + s (\omega_{0} + \omega_{i}) +(A_{0} + 1)\omega_{0} \omega_{i}} = \frac{K_{1}}{s^2 + (\frac{\omega_{n}}{Q})s + \omega_{n}^2} \\[4pt]
 K_{1} = -R_{F} A_{0} \omega_{0} \omega_{i}  \\[4pt]
 \omega_{n}^2 = (A_{0} + 1)\omega_{0} \omega_{i} \approx GBW \cdot \omega_{i} \\[4pt]
 Q = \frac{\sqrt{(A_{0} + 1)\omega_{0} \omega_{i}}}{\omega_{0} + \omega_{i}} \approx \sqrt{\frac{A_{0} \omega_{0}}{\omega_{i}}} = \sqrt{\frac{GBW}{\omega_{i}}}
