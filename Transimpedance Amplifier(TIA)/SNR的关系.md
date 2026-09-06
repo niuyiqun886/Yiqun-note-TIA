@@ -56,6 +56,12 @@ $\gamma$ 是对数级慢增长但是用不收敛的，这决定了：
 
 MDS(minmum detected signal)最小可检测电流大小。
 
+灵敏度的定义：
+
+$$
+P_{min} = \frac{d S_i\sqrt{B_n}}{RM}
+$$
+
 ##### 三. SNR 的四种约定----分歧全在分子分母各取什么
 
 设回波峰值幅度为 $A$ (信号的幅值)，定义 $d \triangleq A/\sigma$   ^e2b806
