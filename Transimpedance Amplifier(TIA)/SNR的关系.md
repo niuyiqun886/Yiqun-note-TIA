@@ -59,8 +59,10 @@ MDS(minmum detected signal)最小可检测电流大小。
 灵敏度的定义：
 
 $$
-P_{min} = \frac{d S_i\sqrt{B_n}}{RM}
+P_{min} = \frac{d \cdot S_i\sqrt{B_n}}{RM}
 $$
+
+MDS 是电流域的，灵敏度是光功率域的。R是响应度，M是雪崩因子
 
 ##### 三. SNR 的四种约定----分歧全在分子分母各取什么
 
