@@ -16,6 +16,9 @@
 **Q1. 题目、出处、年份是什么？**
 
 答：
+	题目：A 64 × 64 Pixel Image Sensor With Gain-Configurable Photodiodes and Combined  Subrange Method
+	出处：IEEE TRANSACTIONS ON INSTRUMENTATION AND MEASUREMENT, VOL. 73, 2024
+	
 
 ---
 
