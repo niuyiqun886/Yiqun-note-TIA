@@ -5,7 +5,7 @@
 
 **论文**：Ma et al., *A 64 × 64 Pixel Image Sensor With Gain-Configurable Photodiodes and Combined Subrange Method*
 **级别**（精读 / 提取 / 扫）：提取级（偏 TIA 一侧精读）
-**开始时间**：2026-09-07　　　**结束时间**：2026-09-07
+**开始时间**：2026-09-12　　　**结束时间**：2026-09-14
 
 ---
 
