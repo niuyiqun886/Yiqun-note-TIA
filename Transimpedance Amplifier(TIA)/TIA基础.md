@@ -239,18 +239,21 @@ $$
 $$
 
 $$
-R_{in} = \frac{R_{F}(1 + \frac{R_{F}}{R_{out}})}{(\frac{R_{F}}{R_{out}} + G_{m} R_{F})} \approx \frac{1}{G_{m}}
+R_{in} = \frac{R_{F}(1 + \frac{R_{F}}{R_{out}})}{(\frac{R_{F}}{R_{out}} + G_{m} R_{F})}  = \frac{R_{F} + R_{out}}{1 + G_{m} R_{out}} \approx \frac{1}{G_{m}}
 $$
 
-
+这个如果 $R_{out}$ 很小的话就不能等效为 $1/G_{m}$ 了
+ 
 （c）output-impedance
 
 ![](./assets/9b010047-e3bf-4b28-a3fe-2e96fa50fc27.png)
 
 $$
-R_{out} = \frac{V_{t}}{I_{t}} = \frac{1}{G_{m}} \parallel R_{out} \approx \frac{1}{G_{m}}
+R_{out} = \frac{V_{t}}{I_{t}} = \frac{1}{G_{m}} \parallel R_{out} = \frac{R_{out}}{1 + G_{m} R_{out}}\approx \frac{1}{G_{m}}
 $$
 
+
+![](assets/18d28b3be9242cfba016aa14c912f6bf.jpg)
 
 
 将TIA的放大器想成一个一阶的放大器：如下图
