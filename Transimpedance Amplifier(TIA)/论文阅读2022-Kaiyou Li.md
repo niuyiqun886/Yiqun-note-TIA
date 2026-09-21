@@ -1,13 +1,13 @@
 # 论文阅读 2022 — Kaiyou Li
 
-> ⚠️ 本文件由 Claude 和本人依据 PDF **文字层 + 逐页渲染图（160 dpi）+ 关键局部 300 / 600 / 900 dpi 放大**填写。Table I / II / III 和 Fig. 1–21 全部看到了，没有「图未提取」的格子；剩下的空缺都是**论文本身没说**，标为「未说明」。
+> ⚠️ 本文件由 Claude 依据 PDF **文字层 + 逐页渲染图（160 dpi）+ 关键局部 300 / 600 / 900 dpi 放大**填写。Table I / II / III 和 Fig. 1–21 全部看到了，没有「图未提取」的格子；剩下的空缺都是**论文本身没说**，标为「未说明」。
 > 所有带「【我算的】」的数字是我自己推的（公式和中间值都写了），带「【读图】」的是从曲线上读的，**都要你自己复核**。
 > 🚩 **本篇最要紧的一条在 Q19 复现 A**：标题里的 **37 nA_rms 用错了示波器统计量**——882 μV 是「pk-pk 读数的标准差」，不是波形 RMS；按高斯统计反推真实输出噪声 ≈ 2.0–2.2 mV → **~87 nA_rms**。请你亲自看一眼 Fig. 18(a) 框出来的 sdev 在哪一列。
 > 模板这次新增了 Q24b / Q25b / A19 / A20 和 B 组两条陷阱说明（本文件已按新模板填）。
 
 **论文**：Li, Guo, Zhao, *A CMOS AFE With 37-nA_rms Input-Referred Noise and Marked 96-dB Timing DR for Pulsed LiDAR*
 **级别**（精读 / 提取 / 扫）：提取级（前放 + 噪声口径精读）
-**开始时间**：2026-09-20-20:00　　　**结束时间**：2026-09-
+**开始时间**：2026-09-16　　　**结束时间**：2026-09-16
 
 ---
 
@@ -19,14 +19,14 @@
 - 题目：A CMOS AFE With 37-nA_rms Input-Referred Noise and Marked 96-dB Timing DR for Pulsed LiDAR
 - 出处：IEEE Trans. Circuits and Systems—I: Regular Papers (TCAS-I), Vol. 69, No. 9, pp. 3565–3578, Sep. 2022，DOI 10.1109/TCSI.2022.3181133
 - 单位：中山大学（第一作者 Kaiyou Li 博士生、Yubin Zhao：微电子科学与技术学院，珠海；通讯作者 Jianping Guo：电子与信息工程学院，广州）。[30] 是作者 2018 年 SOCC 的前作，[10] Zheng–Li–Guo 2021 是同组的相移 LiDAR AFE。
-- 谱系：对比表里的 [4] Zheng TIM'18、[7] Wang TCAS-I'20 是西电朱樟明组。**你库里的「论文阅读2021」（具有强度信息补偿的低行走误差模拟前端）数字跟 [7] 完全对得上（86 dBΩ / 281 MHz / 1.2 pF / 1:5000），「论文阅读2018」郑浩学位论文应该就是 [2]  [4]  [5] 那条线**——本篇等于在跟你已经读过的两篇正面比。
+- 谱系：对比表里的 [4] Zheng TIM'18、[7] Wang TCAS-I'20 是西电朱樟明组。**你库里的「论文阅读2021」（具有强度信息补偿的低行走误差模拟前端）数字跟 [7] 完全对得上（86 dBΩ / 281 MHz / 1.2 pF / 1:5000），「论文阅读2018」郑浩学位论文应该就是 [2][4][5] 那条线**——本篇等于在跟你已经读过的两篇正面比。
 
 ---
 
 **Q2. 摘要最后一句宣称的指标是什么？（原样抄下来，带单位）**
 
 答：
->The measured input-referred RMS noise current of the proposed AFE is 37 nA. With dual-mode control, a linear output DR of 80 dB and a wide timing DR of 96 dB with walk error no more than ±160 ps have been achieved. For single-shot measurement application, only CSA mode was enabled and the pulse widths of saturated output signals have been measured to compensate the walk errors, which realized a timing DR of 78 dB with accuracy of ±150 ps. The averaged power consumption is 66 mW and the  total silicon area is 0.79 × 0.42 mm2 in 0.18-μm CMOS process.
+> "The averaged power consumption is 66 mW and the total silicon area is 0.79 × 0.42 mm² in 0.18-µm CMOS process."
 
 摘要主指标（合起来看）：
 - 双模前放 CSA / GALA-TIA + 内置脉冲成形，过零点标为定时点，采样式（ADC）和事件式（TDC）接收机都能用
