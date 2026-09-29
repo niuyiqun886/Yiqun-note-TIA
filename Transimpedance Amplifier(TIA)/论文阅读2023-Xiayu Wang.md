@@ -525,9 +525,11 @@ $$\Longrightarrow\ \boxed{BW_0=\frac{0.5098\,A_1^3}{2\pi R_FC_T\cdot\tan[(90°-P
 
 即使**全盘接受**论文的「要求从 2.891 松到 2」，带宽能涨多少？在**「同功耗」= 每级 GBW（$g_m/C_{node}$）固定**这个正确口径下：
 
-$$BW_{TIA}=\sqrt{\frac{A_0\omega_0}{R_FC_T}}=A_1\sqrt{\frac{0.5098\,\text{GBW}}{R_FC_T}},\qquad A_1\le\left(\frac{\text{GBW}\cdot R_FC_T}{\text{coef}}\right)^{1/4}$$
+$$BW_{TIA}=\sqrt{\frac{A_0\,\omega_0}{R_FC_T}}=A_1\sqrt{\frac{0.5098\,\text{GBW}}{R_FC_T}},\qquad
+\text{稳定要求}\ \omega_0\ge\frac{\text{coef}\cdot A_0}{R_FC_T}\ \Longrightarrow\ A_1\le\left(\frac{0.5098\,\text{GBW}\cdot R_FC_T}{\text{coef}}\right)^{1/4}$$
 
-（用了 $A_0=A_1^3$、$\omega_0=0.5098\,\omega_p$、$\omega_p=\text{GBW}/A_1$。）所以 $BW\propto\text{coef}^{-1/4}$：
+（用了 $A_0=A_1^3$、$\omega_0=0.5098\,\omega_p$、$\omega_p=\text{GBW}/A_1$；GBW $=g_m/C_{node}$ 是「同功耗」真正固定住的量。）
+$BW\propto A_1\propto\text{coef}^{-1/4}$，常数项在比值里约掉：
 
 $$\boxed{\frac{BW_{\text{有前馈}}}{BW_{\text{无前馈}}}=\left(\frac{2.891}{2}\right)^{1/4}=\mathbf{1.096}}\qquad\text{即 }+9.6\%$$
 
