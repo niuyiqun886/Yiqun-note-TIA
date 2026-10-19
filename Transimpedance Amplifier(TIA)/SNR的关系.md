@@ -56,10 +56,10 @@ $\gamma$ 是对数级慢增长但是用不收敛的，这决定了：
 
 MDS(minmum detected signal)最小可检测电流大小。
 
-灵敏度的定义：
+灵敏度的定义：[^2]    这个注中有一个书中的定义，其实我感觉是和这个是一样的。
 
 $$
-P_{min} = \frac{d \cdot S_i\sqrt{B_n}}{RM}
+P_{min} = \frac{d \cdot S_i\sqrt{B_n}}{R \cdot M}
 $$
 
 MDS 是电流域的，灵敏度是光功率域的。R是响应度，M是雪崩因子
@@ -259,3 +259,12 @@ k 对输入极不敏感（$Q∼e^{−x^2/2}$）： ^ae594c
 	
 
 
+[^2]: 一个书中给出的定义：
+	$$
+	\begin{gather}
+	i_{s}^{pp} = 2 Q \cdot i_n^{rms} \\[8pt]
+	\overline{P_s} = \frac{i_s^{pp}}{2R} \\[8pt]
+	\overline{P_{sens}} = \frac{Q\cdot i_n^{rms}}{R}
+	\end{gather}
+	$$
+	其中R为光电二极管的响应，
