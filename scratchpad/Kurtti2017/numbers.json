@@ -1,0 +1,99 @@
+{
+  "bandwidth_from_1p5ns_MHz": 233.33333333333331,
+  "noise_voltage_from_jitter_mV": 9.610000000000001,
+  "noise_input_from_jitter_nArms": 96.10000000000001,
+  "noise_input_from_10mV_nArms": 100.0,
+  "threshold_sigma_from_recomputed_noise": 7.284079084287201,
+  "MDS_for_SNR10_uA": 0.961,
+  "100kOhm_dBOhm": 100.0,
+  "10kOhm_dBOhm": 80.0,
+  "post_gain": 10.0,
+  "timing_DR_dB": 100.0,
+  "approx_linear_DR_dB": 40.0,
+  "Rin_from_BW_ohm": 230.65933781434111,
+  "A0_if_input_pole_only": 21.676989309769574,
+  "noise_zero_MHz": 10.610329539459688,
+  "density_equivalents_pA": {
+    "1": 6.59380473395787,
+    "1.11": 6.258562485666791,
+    "1.5707963267948966": 5.26109499417383
+  },
+  "RF_single_half_noise_pA": 1.820317994197717,
+  "RF_differential_APD_noise_pA": 1.2871591976131,
+  "RF_bound_single_half_ohm": 381.059124,
+  "RF_fraction_single_half_percent": 7.621182480000001,
+  "B1_chain_OhmHz": 23000000000000.0,
+  "B1_TIA_with_chain_BW_proxy_OhmHz": 2300000000000.0,
+  "B2_chain_totalCin": 69.0,
+  "B2_chain_Cpd_only": 34.5,
+  "B3_chain_by_power": {
+    "150": 153333333333.33334,
+    "180": 127777777777.77777,
+    "300": 76666666666.66667,
+    "330": 69696969696.9697
+  },
+  "B6_voltage_noise_proxy_nV": 2.6343152757970842,
+  "power_core_mW": 13.2,
+  "power_one_post_branch_mW": 31.680000000000003,
+  "power_core_two_post_branches_mW": 76.56,
+  "receiver_current_mA_by_power": {
+    "150": 45.45454545454546,
+    "180": 54.54545454545455
+  },
+  "distance_mm_by_time_ps": {
+    "25": 3.7474057249999997,
+    "65": 9.743254885,
+    "140": 20.98547206,
+    "173": 25.932047617,
+    "175": 26.231840074999997,
+    "24": 3.597509496,
+    "50": 7.494811449999999,
+    "2500": 374.7405725
+  },
+  "standard_error_mean_at_175ps_N10000_ps": 1.75,
+  "optimal_N_paper_formula": 4.605170185988092,
+  "constant_slope_55to75mV_time_ps": 322.58064516129025,
+  "PIN_shot_10uA_pA": 1.7900707438534378,
+  "APD_shot_10uA_M100_F1_pA": 17.90070743853438,
+  "assumed_CT_RF_CFcap_for230MHz_fF": 138.39560268860464,
+  "wrong_100k_as_RF_required_GBW_GHz": 99.71415082494003,
+  "actual_5k_half_RF_required_GBW_GHz_proxy": 4.9857075412470016,
+  "gm_conditional_estimates": [
+    {
+      "assumed_muCox_uA_V2": 100.0,
+      "gm1_mS": 20.701966780270627,
+      "gm2_mS": 13.093073414159544,
+      "gm_post_mS": 8.28078671210825,
+      "A0_no_ro_or_capacitance": 70.48196738961924,
+      "Rin_RF_over_A0_ohm": 70.94013100344318,
+      "input_pole_if_A0_constant_MHz": 747.8369005933115,
+      "post_stage_gain": 2.225170908874843,
+      "post_three_stage_gain": 11.017679137226253
+    },
+    {
+      "assumed_muCox_uA_V2": 200.0,
+      "gm1_mS": 29.277002188456,
+      "gm2_mS": 18.51640199545103,
+      "gm_post_mS": 11.710800875382398,
+      "A0_no_ro_or_capacitance": 122.03213000250568,
+      "Rin_RF_over_A0_ohm": 40.97281592886509,
+      "input_pole_if_A0_constant_MHz": 1294.801113728771,
+      "post_stage_gain": 2.77025084496116,
+      "post_three_stage_gain": 21.259707647814984
+    }
+  ],
+  "Cgs_fF_at_assumed_Cox3to5": {
+    "750": [
+      525.0,
+      875.0
+    ],
+    "300": [
+      210.0,
+      350.0
+    ],
+    "75": [
+      52.5,
+      87.5
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "note": "E:\\Transimpedance Amplifier(TIA)\\Transimpedance Amplifier(TIA)\\论文阅读2017-Kurtti.md",
+  "characters": 25092,
+  "lines": 544,
+  "questions": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q3b",
+    "Q4",
+    "Q5",
+    "Q6",
+    "Q7",
+    "Q8",
+    "Q9",
+    "Q10",
+    "Q11",
+    "Q12",
+    "Q13",
+    "Q14",
+    "Q15",
+    "Q16",
+    "Q17",
+    "Q18",
+    "Q19",
+    "Q20",
+    "Q21",
+    "Q22",
+    "Q23",
+    "Q24",
+    "Q24b",
+    "Q24c",
+    "Q25",
+    "Q25b",
+    "Q26",
+    "Q26b",
+    "Q26c",
+    "Q26d",
+    "Q27"
+  ],
+  "A_rows": 21,
+  "B_rows": 7,
+  "image_references": 17,
+  "unique_images": 17,
+  "all_images_exist_and_decode": true,
+  "image_checks": [
+    {
+      "file": "Kurtti2017-table1_comparison.png",
+      "exists": true,
+      "width": 2148,
+      "height": 835
+    },
+    {
+      "file": "Kurtti2017-fig04_receiver_architecture.png",
+      "exists": true,
+      "width": 2222,
+      "height": 1051
+    },
+    {
+      "file": "Kurtti2017-fig05_walk_compensation_principle.png",
+      "exists": true,
+      "width": 1088,
+      "height": 775
+    },
+    {
+      "file": "Kurtti2017-fig16_18_risetime_and_LUTs.png",
+      "exists": true,
+      "width": 1079,
+      "height": 1965
+    },
+    {
+      "file": "Kurtti2017-fig03_laser_pulse.png",
+      "exists": true,
+      "width": 1070,
+      "height": 732
+    },
+    {
+      "file": "Kurtti2017-fig14_15_walk_and_width.png",
+      "exists": true,
+      "width": 1070,
+      "height": 1319
+    },
+    {
+      "file": "Kurtti2017-fig19_compensated_walk.png",
+      "exists": true,
+      "width": 1079,
+      "height": 666
+    },
+    {
+      "file": "Kurtti2017-fig20_temperature_drift.png",
+      "exists": true,
+      "width": 1088,
+      "height": 629
+    },
+    {
+      "file": "Kurtti2017-fig21_22_single_shot_precision.png",
+      "exists": true,
+      "width": 1070,
+      "height": 1500
+    },
+    {
+      "file": "Kurtti2017-fig06_TIA_core_sizes.png",
+      "exists": true,
+      "width": 1088,
+      "height": 789
+    },
+    {
+      "file": "Kurtti2017-fig07_post_amplifier.png",
+      "exists": true,
+      "width": 1088,
+      "height": 694
+    },
+    {
+      "file": "Kurtti2017-fig13_transient_noise_simulation.png",
+      "exists": true,
+      "width": 1079,
+      "height": 957
+    },
+    {
+      "file": "Kurtti2017-fig08_timing_comparator.png",
+      "exists": true,
+      "width": 2138,
+      "height": 873
+    },
+    {
+      "file": "Kurtti2017-fig12_buffer_coupling.png",
+      "exists": true,
+      "width": 1079,
+      "height": 1060
+    },
+    {
+      "file": "Kurtti2017-fig11_optical_testbench.png",
+      "exists": true,
+      "width": 1085,
+      "height": 770
+    },
+    {
+      "file": "Kurtti2017-fig09_receiver_IO.png",
+      "exists": true,
+      "width": 1970,
+      "height": 1041
+    },
+    {
+      "file": "Kurtti2017-fig10_die_photo.png",
+      "exists": true,
+      "width": 1079,
+      "height": 1154
+    }
+  ],
+  "missing_template_questions": [],
+  "empty_answers": [],
+  "Q11_to_Q15_all_have_three_parts": true,
+  "hand_drawing_space_preserved": true
+}
