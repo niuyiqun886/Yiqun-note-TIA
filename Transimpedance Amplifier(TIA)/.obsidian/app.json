@@ -1,0 +1,10 @@
+{
+  "openBehavior": "file:",
+  "newFileLocation": "root",
+  "newFileFolderPath": "Transimpedance Amplifier(TIA)/assets",
+  "attachmentFolderPath": "./assets",
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "promptDelete": false
+}
